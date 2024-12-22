@@ -2,9 +2,9 @@ import { useNavigate } from 'react-router-dom';
 function Brands() {
     const navigate = useNavigate();
     return (
-        <div className="bg-gradient-to-r from-purple-300 via-yellow-200 to-purple-500 to-purple-500 text-black flex flex-col gap-20 md:gap-40">
-            <div className="flex flex-col gap-10 md:gap-20 w-[90vw] md:w-[70vw] mx-auto text-start">
-                <h1 className="text-4xl md:text-6xl mt-10 md:mt-20 leading-tight">
+        <div className="bg-gradient-to-r from-purple-300 via-yellow-200 to-purple-500 to-purple-500 text-black flex flex-col gap-20">
+            <div className="flex flex-col gap-10 w-[90vw] md:w-[70vw] mx-auto text-start">
+                <h1 className="text-4xl md:text-6xl mt-10 md:mt-20 leading-tight text-purple-900 font-bold">
                     Conception to scale,
                     <br />
                     we cover the entire growth journey
@@ -16,7 +16,7 @@ function Brands() {
                 </div>
             </div>
             <div className="flex relative lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-10 md:gap-40 justify-start">
-                <div className="sticky top-10 text-4xl md:text-6xl text-start px-5 md:px-10">
+                <div className="sticky top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
                     Branding & Design
                 </div>
                 <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10">
@@ -31,7 +31,7 @@ function Brands() {
                 </div>
             </div>
             <div className="flex flex-col lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-10 md:gap-40 justify-start">
-                <div className="sticky top-10 text-4xl md:text-6xl text-start px-5 md:px-10">
+                <div className="sticky top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
                     Strategy & Growth
                 </div>
                 <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10 pb-20">
@@ -45,7 +45,7 @@ function Brands() {
                 </div>
             </div>
             <div className="flex flex-col lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-10 md:gap-40 justify-start">
-                <div className="sticky top-10 text-4xl md:text-6xl text-start px-5 md:px-10">
+                <div className="sticky top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
                     Services<span className='text-2xl align-middle px-4'> (ATL and BTL Activities) </span>
                 </div>
                 <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10 pb-20">

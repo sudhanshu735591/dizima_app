@@ -32,7 +32,7 @@ function Header() {
           alt="Dizima Logo"
           className="w-10 h-10 rounded-full"
         />
-        <ul className="text-yellow-400 flex gap-6 md:gap-10 font-medium cursor-pointer flex-wrap">
+        <ul className="text-purple-900 flex gap-6 md:gap-10 font-medium cursor-pointer flex-wrap">
           <li onClick={()=>navigate("/body")} className="hover:underline hover:text-yellow-300">Home</li>
           <li onClick={()=>navigate("/about")} className="hover:underline hover:text-yellow-300">About</li>
           <li onClick={()=>navigate("/services")} className="hover:underline hover:text-yellow-300">Service</li>

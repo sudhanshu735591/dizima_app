@@ -11,7 +11,7 @@ function BTL() {
     <div className="relative min-h-screen">
       <div className="absolute h-full w-full z-10 top-0 left-0"></div>
       <div className="relative z-10 p-6 md:p-10">
-        <h1 className="text-3xl md:text-4xl lg:text-6xl text-black underline ">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl text-black underline text-violet-900">
           BTL (Below the line) Activities
         </h1>
         <div className="text-lg md:text-xl flex flex-col gap-6 text-start text-black ">

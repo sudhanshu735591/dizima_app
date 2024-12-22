@@ -11,7 +11,7 @@ function Creativity() {
           alt=""
         />
       </div>
-      <div className="relative flex flex-col items-center px-4">
+      <div className="relative flex flex-col items-center px-4 text-violet-900">
         <div className="mt-20 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-start">
           Discover our extraordinary lineup of <br />
           <span className="font-dancing text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold">

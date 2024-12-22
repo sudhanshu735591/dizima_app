@@ -24,7 +24,7 @@ function GrowthPlans() {
     <div className="bg-gradient-to-r from-purple-300 via-yellow-200 to-purple-500 to-purple-500 text-black  border p-10">
       <div className="flex flex-col gap-2">
         <p className="text-4xl uppercase">Clients Across Industries</p>
-        <h1 className="text-5xl font-bold">Full-Service Web Design Agency</h1>
+        <h1 className="text-5xl font-bold text-violet-900">Full-Service Web Design Agency</h1>
         <p className="text-2xl">From startups to Fortune 500 companies</p>
         <p className="text-4xl">
           We create custom solutions that grow brands online

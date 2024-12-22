@@ -1,7 +1,7 @@
 function AmbitiousGrowth() {
   return (
     <div className="bg-gradient-to-r from-yellow-200 via-purple-300 to-purple-500 to-purple-500 text-black p-10">
-      <div className="text-4xl sm:text-5xl lg:text-6xl w-[90%] lg:w-[70%] m-auto text-center">
+      <div className="text-4xl sm:text-5xl lg:text-6xl w-[90%] lg:w-[70%] m-auto text-center text-purple-900 font-bold">
         <h1>We help ambitious companies meet & exceed their growth goals.</h1>
       </div>
       <div className="mt-10 lg:mt-20 flex flex-wrap gap-10 lg:gap-40 w-[90vw] m-auto text-start p-5 lg:p-10 lg:flex-nowrap justify-center">

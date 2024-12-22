@@ -3,7 +3,7 @@ function FunnelCard() {
   return (
     <div className="flex flex-col border-2 text-black md:flex-row p-5 md:p-10 gap-5 bg-gradient-to-r from-yellow-200 via-purple-300 to-purple-500 overflow-hidden">
       <div className="w-full md:w-1/2">
-        <p className="mt-10 text-3xl md:text-6xl font-bold text-start">
+        <p className="mt-10 text-3xl md:text-6xl font-bold text-start text-purple-900">
           DIGITAL MARKETING <span className="animate-text text-blue-700">EXPERT</span>
         </p>
         <div>

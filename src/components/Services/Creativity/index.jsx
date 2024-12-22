@@ -3,7 +3,7 @@ function Creativity() {
   const text = "Why we are ? 💫";
   return (
     <div className="m-auto text-black p-10 sm:p-16 lg:p-20">
-      <h1 className="overflow-hidden text-4xl sm:text-5xl lg:text-6xl font-bold text-start font-montserrat">
+      <h1 className="overflow-hidden text-4xl sm:text-5xl lg:text-6xl font-bold text-start font-montserrat text-violet-900">
         {text.match(/./gu)?.map((char, index) => (
           <span
             className="animate-text-reveal inline-block"

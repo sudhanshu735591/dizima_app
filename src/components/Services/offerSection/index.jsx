@@ -14,9 +14,9 @@ function OfferSection() {
       <div className="relative z-10 flex flex-col md:flex-row gap-10 md:gap-80">
         <div>
           <div className="md:sticky md:top-20">
-            <h1 className="text-5xl md:text-6xl">
+            <h1 className="text-5xl md:text-6xl text-violet-800">
               Here is what we{" "}
-              <span className="font-dancing text-7xl md:text-8xl">
+              <span className="font-dancing text-7xl md:text-8xl text-violet-900 font-bold">
                 can offer
               </span>.
             </h1>

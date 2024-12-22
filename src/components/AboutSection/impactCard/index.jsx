@@ -3,7 +3,7 @@ function ImpactCard() {
     <div className="p-8 md:p-20 bg-gradient-to-r from-violet-500 to-white">
       <div className="flex flex-wrap md:flex-nowrap justify-between">
         <div className="w-full md:w-[70%] text-start">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl text-black font-semibold leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl text-black font-semibold leading-tight text-violet-900">
             We help organizations transform <span className="font-times">their impact.</span>
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl mt-6 md:mt-10 text-black">

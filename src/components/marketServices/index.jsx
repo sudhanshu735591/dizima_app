@@ -30,7 +30,7 @@ function MarketService() {
   return (
     <div className="bg-gradient-to-r from-purple-500 via-purple-300 to-yellow-200 text-black p-8 md:p-20 border m-auto">
       <div className="w-full md:w-[85vw] m-auto md:text-6xl">
-        <p className="text-start">
+        <p className="text-start text-purple-900">
           Our marketing services are strategically designed to align with your
           sales Box, empowering you to drive sustainable and predictable growth.
         </p>
