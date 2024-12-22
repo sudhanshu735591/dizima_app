@@ -49,7 +49,9 @@ function Footer() {
   return (
     <div className="bg-gradient-to-r from-purple-500 via-purple-300 to-yellow-200 to-purple-500 text-black py-10 px-5">
       <div className="text-center p-10">
-        <h1 className="text-6xl font-bold text-start">Let's Grow Your Brand</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-start">
+          Let's Grow Your Brand
+        </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 p-10">
         {sections.map((section, index) => (
@@ -66,9 +68,22 @@ function Footer() {
         ))}
       </div>
       <div className="flex gap-10 cursor-pointer pl-10">
-        <img className="rounded-full h-[70px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLesy_ocUv947-gaVOy4_lNkXRdB9p5YUTyw&s" alt="" />
-        <img onClick={()=>window.open("https://www.instagram.com/dizimaindia/")} className="rounded-full h-[70px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR21SRtolNjDeiw3_iqTw3bKfGcN0TGIpChug&s" alt="" />
-        <img className="rounded-full h-[70px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToXRLt-PeOJjWUvDncMfzLy3NkpveAiGXr7A&s" alt="" />
+        <img
+          className="rounded-full h-[70px]"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLesy_ocUv947-gaVOy4_lNkXRdB9p5YUTyw&s"
+          alt=""
+        />
+        <img
+          onClick={() => window.open("https://www.instagram.com/dizimaindia/")}
+          className="rounded-full h-[70px]"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR21SRtolNjDeiw3_iqTw3bKfGcN0TGIpChug&s"
+          alt=""
+        />
+        <img
+          className="rounded-full h-[70px]"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToXRLt-PeOJjWUvDncMfzLy3NkpveAiGXr7A&s"
+          alt=""
+        />
       </div>
       <div className="mt-10">©2024 Dizima. All rights reserved</div>
     </div>
