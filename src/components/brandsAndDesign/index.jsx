@@ -50,11 +50,11 @@ function Brands() {
                 </div>
                 <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10 pb-20">
                     <ul className="space-y-4 md:space-y-6">
-                        <li className="text-lg md:text-2xl">Strategy Development</li>
-                        <li className="text-lg md:text-2xl">Strategy Implementation</li>
-                        <li className="text-lg md:text-2xl">Campaign Management</li>
-                        <li className="text-lg md:text-2xl">Account Based Marketing</li>
-                        <li className="text-lg md:text-2xl">Content Marketing</li>
+                        <li className="text-lg md:text-2xl">Television Advertising</li>
+                        <li className="text-lg md:text-2xl">Radio Advertising</li>
+                        <li className="text-lg md:text-2xl">Print Media Advertising</li>
+                        <li className="text-lg md:text-2xl">Event Marketing</li>
+                        <li className="text-lg md:text-2xl">Direct Mail Campaigns</li>
                     </ul>
                     <button onClick={()=>navigate("/form")} className="bg-gradient-to-r from-yellow-200 via-purple-300 to-purple-500 to-purple-500 p-10 rounded-full bg-purple-400 text-2xl mt-20">Let's connect</button>
                 </div>
