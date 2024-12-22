@@ -1,0 +1,50 @@
+@keyframes typing {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: rgb(0, 183, 255); 
+  }
+}
+
+.animate-text {
+  animation: typing 3s linear infinite;
+}
+
+.animated-button {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(144, 147, 209); /* Gold */
+  color: #1C3281; /* Dark Blue */
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.animated-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transition: left 0.4s ease-in-out;
+}
+
+.animated-button:hover::before {
+  left: 100%;
+}
+
+.animated-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
