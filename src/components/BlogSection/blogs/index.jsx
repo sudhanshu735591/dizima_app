@@ -11,11 +11,10 @@ function Blogs() {
     { image: "https://media.tenor.com/3eeOYZ3cDpEAAAAM/stonks-chart.gif", alt: "Slide 3" },
     { image: "https://redma.co.in/wp-content/uploads/2024/03/WEB-DESIGN-DEVELOPMENT.gif", alt: "Slide 4" },
   ];
-
   return (
     <div>
       <Header />
-      <div className="bg-gradient-to-r from-purple-500 via-white to-white">
+      <div className="">
         <div className="p-6 md:p-10 lg:p-20 text-center">
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-black leading-relaxed">
             The Goobrand Blog is where our team shares insights and lessons about
@@ -25,14 +24,12 @@ function Blogs() {
             </span>
           </h1>
         </div>
-
         <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-8 text-lg md:pl-10 md:pr-10 lg:pl-20 lg:pr-20">
           <Carousel slides={slides} />
           <div className="h-[300px] sm:h-[400px] w-[90%] sm:w-[600px] lg:w-[700px] border border-2 m-auto mt-10 text-black flex items-center justify-center">
             400X700
           </div>
         </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 md:p-10">
           {data.map((val, index) => (
             <Card
@@ -49,5 +46,4 @@ function Blogs() {
     </div>
   );
 }
-
 export default Blogs;

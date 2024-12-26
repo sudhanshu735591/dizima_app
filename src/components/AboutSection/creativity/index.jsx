@@ -3,7 +3,7 @@ import { data } from "../data";
 import Marquee from "react-fast-marquee";
 function Creativity() {
   return (
-    <div className="relative bg-gradient-to-r from-white to-violet-500 text-black min-h-screen pb-40">
+    <div className="relative  text-black min-h-screen pb-40">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <img
           className="w-full h-full object-cover"

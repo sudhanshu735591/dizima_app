@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from "react";
-
 const Carousel = ({slides}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
     }, 3000);
-
     return () => clearInterval(timer);
   }, [slides.length]);
-
   return (
     <div className="relative overflow-hidden mx-auto rounded-2xl w-full h-[300px] sm:h-[400px] md:h-[500px] lg:w-3/5">
       <div
@@ -34,5 +31,4 @@ const Carousel = ({slides}) => {
     </div>
   );
 };
-
 export default Carousel;

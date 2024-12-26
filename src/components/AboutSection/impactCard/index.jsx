@@ -1,6 +1,6 @@
 function ImpactCard() {
   return (
-    <div className="p-8 md:p-20 bg-gradient-to-r from-violet-500 to-white">
+    <div className="p-8 md:p-20 ">
       <div className="flex flex-wrap md:flex-nowrap justify-between">
         <div className="w-full md:w-[70%] text-start">
           <h1 className="text-3xl sm:text-4xl md:text-6xl text-black font-semibold leading-tight text-violet-900">

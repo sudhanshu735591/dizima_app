@@ -1,6 +1,6 @@
 function Card(){
     return(
-        <div className="flex gap-10 items-center text-black">
+        <div className="flex gap-10 items-center text-white">
             
             <div className="w-[700px] text-start">
                 <img src="https://cdn.prod.website-files.com/61387043ab1e4143deac1e21/64f724c8947d4e3df0610892_quote_marks.svg" alt="" />

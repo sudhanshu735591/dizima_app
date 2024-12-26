@@ -47,7 +47,7 @@ function Footer() {
     },
   ];
   return (
-    <div className="bg-gradient-to-r from-purple-500 via-purple-300 to-yellow-200 to-purple-500 text-black py-10 px-5">
+    <div className="text-black bg-gradient-to-r from-violet-200 to-pink-200 py-10 px-5">
       <div className="text-center p-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-start text-purple-900">
           Let's Grow Your Brand

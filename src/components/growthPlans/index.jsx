@@ -20,8 +20,9 @@ function GrowthPlans() {
     const interval = setInterval(scrollStep, 1);
     return () => clearInterval(interval);
   }, []);
+  
   return (
-    <div className="bg-gradient-to-r from-purple-300 via-yellow-200 to-purple-500 to-purple-500 text-black  border p-10">
+    <div className="text-white bg-gradient-to-r from-slate-50 to-indigo-600 hover:from-pink-500 hover:to-orange-500 border p-10">
       <div className="flex flex-col gap-2">
         <p className="text-4xl uppercase">Clients Across Industries</p>
         <h1 className="text-5xl font-bold text-violet-900">Full-Service Web Design Agency</h1>

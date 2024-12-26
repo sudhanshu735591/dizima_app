@@ -1,15 +1,13 @@
 import Footer from "../../Footer";
 import Header from "../../header";
-import Card from "../card";
 import Creativity from "../creativity";
 import ImpactCard from "../impactCard";
 function GrowthBenchMarks() {
   return (
     <div className="overflow-hidden">
       <Header />
-      <div className="relative bg-gradient-to-r from-white to-violet-500 text-black min-h-screen flex flex-col items-center justify-start">
-       
-        <div className="relative mt-10 z-10 px-4 sm:px-6  w-[80%]">
+      <div className="relative  text-black min-h-screen flex flex-col items-center justify-start">
+         <div className="relative mt-10 z-10 px-4 sm:px-6 w-[80%]">
           <img
             className="mx-auto w-2/3 sm:w-1/2"
             src="https://growthbenchmarks.com/images/Logo.png"
