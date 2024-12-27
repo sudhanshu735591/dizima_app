@@ -10,7 +10,6 @@ function GrowthPlans() {
       if (carousel) {
         carousel.scrollLeft += 20;
         scrollAmount += 20;
-
         if (scrollAmount >= carousel.scrollWidth - carousel.clientWidth) {
           scrollAmount = 0;
           carousel.scrollLeft = 0;
@@ -20,7 +19,6 @@ function GrowthPlans() {
     const interval = setInterval(scrollStep, 1);
     return () => clearInterval(interval);
   }, []);
-  
   return (
     <div className="text-white bg-gradient-to-r from-slate-50 to-indigo-600 hover:from-pink-500 hover:to-orange-500 border p-10">
       <div className="flex flex-col gap-2">

@@ -56,8 +56,8 @@ function MarketService() {
         {data}
       </div>
       </div> */}
-      <div className="text-black flex flex-col gap-10 mt-20">
-        <div className="border-l-4 border-white w-[90%] m-auto  flex flex-col gap-10">
+      <div className="text-white bg-gradient-to-r from-indigo-500 flex flex-col gap-10 ">
+        <div className="border-l-4 border-white w-[90%] m-auto p-10 flex flex-col gap-10 mt-20">
           <h1 className="text-6xl font-bold text-start">Why Us?</h1>
           <p className="text-2xl text-start">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe

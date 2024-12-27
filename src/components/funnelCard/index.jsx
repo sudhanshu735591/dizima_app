@@ -1,16 +1,17 @@
 import "./index.css";
 function FunnelCard() {
+  
   return (
     <>
-      <div className="relative min-h-screen">
-        <div className="absolute inset-0 z-0">
+      <div className="relative md:min-h-screen">
+        <div className="lg:absolute inset-0 z-0">
           <img
-            className="w-full h-full object-cover"
-            src="https://plus.unsplash.com/premium_photo-1681566925324-ee1e65d9d53e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2hpdGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D"
+            className="w-full lg:h-full lg:object-cover "
+            src="https://media.licdn.com/dms/image/D4D12AQFDHk-NdhjLkg/article-cover_image-shrink_720_1280/0/1675351692115?e=2147483647&v=beta&t=AF70vqJXSUcEbnm02SGECxVqVJgCCAUM4Bas-PeaIwg"
             alt=""
           />
         </div>
-        <div className="relative">
+        {/* <div className="relative">
           <div class="overflow-hidden h-40 w-120">
             <div class="flex flex-col animate-vertical-scroll space-y-4 text-8xl text-yellow-100 leading-relaxed	">
               <div>Web. Mobile. Software.</div>
@@ -22,7 +23,8 @@ function FunnelCard() {
             <h1 className="mt-10 font-bold">Always new and creative</h1>
             <h1 className="text-6xl mt-10 aqua">AQUARIOUS</h1>
           </div>
-        </div>
+        </div> */}
+        
       </div>
       {/* <div className="flex border-2 text-black md:flex-row p-5 md:p-10 gap-5 bg-white overflow-hidden">
       <div className="w-full md:w-1/2">

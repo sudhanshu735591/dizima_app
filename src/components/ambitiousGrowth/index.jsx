@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.jsx"
 import { WrenchScrewdriverIcon } from "@heroicons/react/20/solid";
 const services = [
   {
@@ -23,11 +24,11 @@ const services = [
 
 const AmbitiousGrowth = () => {
   return (
-    <section className="mx-auto bg-gradient-to-r from-violet-200 to-pink-200 pb-10 pt-10">
+    <section className="mx-auto pb-10 pt-10">
       <div className="mx-auto flex px-4 lg:max-w-7xl">
         <div className="flex justify-center object-center w-full flex-col gap-12 ">
-          <h2 className="text-4xl font-semibold tracking-tight text-blue-900 underline sm:text-5xl lg:text-6xl">
-          Achieving Growth Goals Together
+          <h2 className="aqua text-4xl  tracking-tight sm:text-5xl lg:text-6xl">
+            Achieving Growth Goals Together
           </h2>
           <div className="flex flex-wrap lg:flex-nowrap gap-20 space-y-10  w-full md:space-y-0 ">
             {services.map((service) => (

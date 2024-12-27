@@ -17,7 +17,7 @@ function ATL() {
           <h1 className="mt-6 md:mt-10 text-xl md:text-3xl lg:text-4xl md:pl-20 ">
             Our ATL Services Includes:
           </h1>
-          <div className="flex lg:flex-row lg:justify-between gap-8 text-3xl md:pl-20 md:pr-20 flex-wrap">
+          <div className="flex lg:flex-row lg:justify-between gap-8 text-3xl md:pl-20 md:pr-20 flex-wrap lg:flex-nowrap">
             <Carousel slides={slides}/>
             <div className=" p-4">
               <video
