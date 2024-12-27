@@ -1,5 +1,6 @@
 import Footer from "../../Footer";
 import Header from "../../header";
+import NativeAdd from "../../NativeAdd";
 import Creativity from "../creativity";
 import ImpactCard from "../impactCard";
 function GrowthBenchMarks() {
@@ -47,6 +48,7 @@ function GrowthBenchMarks() {
           </div>
         </div>
       </div>
+      <NativeAdd/>
       <ImpactCard/>
       <Creativity/>
       <Footer/> 
