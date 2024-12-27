@@ -4,9 +4,9 @@ function Brands() {
   const navigate = useNavigate();
   const text = "Covering Your Growth Journey 💫";
   return (
-    <div className="text-black flex flex-col border border-2 gap-20">
-      <div className="flex flex-col gap-10 w-full md:w-[75vw] mx-auto text-start">
-        <h1 className="overflow-hidden text-4xl mt-20 sm:text-5xl lg:text-6xl font-bold text-start font-montserrat text-violet-900">
+    <div className="text-black flex flex-col border border-2 gap-10 ">
+      <div className="flex flex-col gap-5 w-full md:w-[75vw] mx-auto text-start p-5">
+        <h1 className="overflow-hidden text-xl lg:text-6xl font-bold text-start font-montserrat text-violet-900">
           {text.match(/./gu)?.map((char, index) => (
             <span
               className="animate-text-reveal inline-block"
@@ -25,8 +25,8 @@ function Brands() {
           </p>
         </div>
       </div>
-      <div className="flex relative lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-10 md:gap-40 justify-start">
-        <div className="sticky text-bold top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
+      <div className="flex relative lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-5 md:gap-40 justify-start">
+        <div className="text-bold top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
           Branding & Design
         </div>
         <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10">
@@ -41,7 +41,7 @@ function Brands() {
         </div>
       </div>
       <div className="flex flex-col lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-10 md:gap-40 justify-start">
-        <div className="sticky top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
+        <div className="top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
           Strategy & Growth
         </div>
         <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10 pb-20">
@@ -54,8 +54,9 @@ function Brands() {
           </ul>
         </div>
       </div>
+      
       <div className="flex flex-col lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-10 md:gap-40 justify-start">
-        <div className="sticky top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
+        <div className="top-10 text-4xl md:text-6xl text-start px-5  text-purple-800">
           Services
           <span className="text-2xl align-middle px-4">
             {" "}

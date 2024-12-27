@@ -1,13 +1,12 @@
 function NativeAdd() {
     return (
       <div className="text-white bg-[#002852] pb-10 p-20">
-        <div >
+        <div>
           <h1 className="text-6xl sm:text-4xl md:text-5xl">
             Native Advertising <span className="text-[#00F0D6]">Works</span>
           </h1>
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-20 w-full md:w-[80%] mx-auto pb-40">
-          {/* Left side text */}
           <div className="text-end flex flex-col gap-10 mt-10 md:mt-20 w-full md:w-1/2">
             <div className="text-center">
               <h1 className="text-4xl sm:text-3xl md:text-6xl mt-20">+50%</h1>
@@ -47,6 +46,4 @@ function NativeAdd() {
       </div>
     );
   }
-  
   export default NativeAdd;
-  

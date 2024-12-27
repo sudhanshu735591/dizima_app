@@ -2,6 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      sm: '640px', // Small screens
+      md: '768px', // Medium screens
+      lg: '1024px', // Large screens
+      xl: '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       animation:{
         'vertical-scroll': 'vertical-scroll 10s linear infinite',
@@ -16,7 +23,7 @@ module.exports = {
       },
       fontFamily: {
         jakarta: ['"Jakarta Sans"', 'sans-serif', ],
-        dancing: ['"Dancing Script"', 'serif'], 
+        // dancing: ['"Dancing Script"', 'serif'], 
         roboto : ["Roboto Condensed"],
         times: ['"Times New Roman"', 'italic'],
         playwright: ['"Playwright México Guides"', 'sans-serif'],

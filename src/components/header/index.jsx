@@ -22,7 +22,7 @@ function Header() {
   }, [lastScrollY]);
   return (
     <div
-      className={`w-full sticky top-0 z-50  shadow-lg transition-all duration-1000 ease-in-out ${
+      className={`w-full bg-white sticky top-0 z-2 shadow-lg transition-all duration-1000 ease-in-out ${
         showHeader ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >
