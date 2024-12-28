@@ -27,14 +27,14 @@ const AmbitiousGrowth = () => {
     <section className="mx-auto pb-10 pt-10">
       <div className="mx-auto flex px-4 lg:max-w-7xl">
         <div className="flex justify-center object-center w-full flex-col gap-12 ">
-          <h2 className="aqua tracking-tight lg:text-5xl">
+          <h2 className="aqua tracking-tight text-2xl lg:text-5xl">
             Achieving Growth Goals Together
           </h2>
           <div className="flex flex-wrap lg:flex-nowrap lg:gap-20 space-y-5  w-full md:space-y-0 ">
             {services.map((service) => (
               <div key={service.name} className="group h-96 w-full ">
                 <div className="relative bg-gradient-to-r from-pink-200 via-purple-400 to-indigo-600 h-full w-full rounded-2xl text-black shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  <div className="absolute text-yellow-100 font-bold text-4xl flex flex-col items-center justify-center inset-0 h-full w-full rounded-xl [backface-visibility:hidden]">
+                  <div className="absolute text-yellow-100 font-bold text-3xl md:text-4xl flex flex-col items-center justify-center inset-0 h-full w-full rounded-xl [backface-visibility:hidden]">
                     {`${service.step} Growth Rate`}
                     <h1 className="text-2xl p-5 text-white font-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nobis nulla velit sunt voluptas fuga culpa. Delectus rerum eveniet officia quos aut sunt aliquam, </h1>
                   </div>

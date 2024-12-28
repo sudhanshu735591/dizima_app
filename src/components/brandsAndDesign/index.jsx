@@ -72,7 +72,7 @@ function Brands() {
           </ul>
           <button
             onClick={() => navigate("/form")}
-            className="bg-gradient-to-r from-yellow-200 via-purple-300 to-purple-500 to-purple-500 p-10 rounded-full bg-purple-400 text-2xl text-white"
+            className="bg-gradient-to-r from-yellow-200 via-purple-300 to-purple-500 to-purple-500 pt-2 pb-3 md:p-10 rounded-xl md:rounded-full bg-purple-400 text-2xl text-white"
           >
             Let's connect
           </button>

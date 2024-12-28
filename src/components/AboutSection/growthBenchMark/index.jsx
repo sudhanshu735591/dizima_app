@@ -10,7 +10,7 @@ function GrowthBenchMarks() {
       <div className="relative  text-black min-h-screen flex flex-col items-center justify-start">
          <div className="relative mt-10 z-10 px-4 sm:px-6 w-[80%]">
           <img
-            className="mx-auto w-2/3 sm:w-1/2"
+            className="mx-auto"
             src="https://growthbenchmarks.com/images/Logo.png"
             alt="Growth Benchmarks Logo"
           />
