@@ -59,15 +59,14 @@
 .aqua {
   text-transform: uppercase;
   background-image: linear-gradient(-225deg, #091f49 0%, #00a2ff 29%, #eb4d22 50%, #fbbe15 100%);
-  background-size: 200% auto; /* This is required for the animation */
+  background-size: 200% auto; 
   color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: moveGradient 2s linear infinite; /* Fixed: Added animation name */
+  animation: moveGradient 2s linear infinite; 
   display: inline-block;
   font-family: Tahoma, sans-serif;
-  font-weight: bold;
 }
 
 @keyframes moveGradient {

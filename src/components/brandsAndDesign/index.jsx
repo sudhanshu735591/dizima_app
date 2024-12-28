@@ -40,11 +40,11 @@ function Brands() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-10 md:gap-40 justify-start">
-        <div className="top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
+      <div className="flex relative lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-5 md:gap-40 justify-start">
+        <div className="text-bold top-10 text-4xl md:text-6xl text-start px-5 md:px-10 text-purple-800">
           Strategy & Growth
         </div>
-        <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10 pb-20">
+        <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10">
           <ul className="space-y-4 md:space-y-6">
             <li className="text-lg md:text-2xl">Strategy Development</li>
             <li className="text-lg md:text-2xl">Strategy Implementation</li>
@@ -54,16 +54,15 @@ function Brands() {
           </ul>
         </div>
       </div>
-      
       <div className="flex flex-col lg:pl-40 w-auto mx-0 md:flex-row flex-wrap gap-10 md:gap-40 justify-start">
-        <div className="top-10 text-4xl md:text-6xl text-start px-5  text-purple-800">
+        <div className="top-10 text-4xl md:text-6xl text-start px-5 text-purple-800">
           Services
           <span className="text-2xl align-middle px-4">
             {" "}
             (ATL and BTL Activities){" "}
           </span>
         </div>
-        <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10 pb-20">
+        <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-20 pb-20">
           <ul className="space-y-4 md:space-y-6">
             <li className="text-lg md:text-2xl">Television Advertising</li>
             <li className="text-lg md:text-2xl">Radio Advertising</li>
@@ -73,7 +72,7 @@ function Brands() {
           </ul>
           <button
             onClick={() => navigate("/form")}
-            className="bg-gradient-to-r from-yellow-200 via-purple-300 to-purple-500 to-purple-500 p-10 rounded-full bg-purple-400 text-2xl mt-20"
+            className="bg-gradient-to-r from-yellow-200 via-purple-300 to-purple-500 to-purple-500 p-10 rounded-full bg-purple-400 text-2xl text-white"
           >
             Let's connect
           </button>
