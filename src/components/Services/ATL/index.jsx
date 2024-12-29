@@ -10,13 +10,14 @@ function ATL() {
     <div className="relative min-h-screen">
       <div className="absolute h-full w-full z-10 top-0 left-0"></div>
       <div className="relative z-10 p-6 md:p-10">
-        <h1 className="text-3xl md:text-3xl lg:text-5xl text-black underline text-violet-800">
+        <h1 className="text-3xl md:text-3xl lg:text-4xl text-black underline text-violet-800">
           ATL (Above the line) Activities
         </h1>
         <div className="text-lg md:text-xl flex flex-col gap-6 text-start text-black ">
           <h1 className="mt-6 md:mt-10 text-xl md:text-3xl lg:text-4xl md:pl-20 ">
-            Our ATL Services Includes:
+            Our ATL Services are:
           </h1>
+          <h1 className="text-start md:pl-20 md:text-2xl">ATL (Above The Line) activities focus on mass-market advertising through traditional channels like TV, radio, print, and digital media. These strategies help build brand awareness, reach a broad audience, and create a lasting impact across various platforms.</h1>
           <div className="flex lg:flex-row lg:justify-between gap-8 text-3xl md:pl-20 md:pr-20 flex-wrap lg:flex-nowrap">
             <Carousel slides={slides}/>
             <div className=" p-4">

@@ -1,26 +1,20 @@
 import { useState } from "react";
 import "./index.css";
 function FunnelCard() {
-  const [flag, setFlag] = useState(false);
-  setTimeout(() => {
-    setFlag(true);
-  }, 6000);
+  // const [flag, setFlag] = useState(false);
+  // setTimeout(() => {
+  //   setFlag(true);
+  // }, 6000);
   return (
     <>
-      {!flag && (
-        <div className="mt-10 h-[400px] m-auto w-1/2 ">
-          <video
-            className="w-full h-full object-cover rounded-2xl"
-            autoPlay
-            loop
-            playsInline
-            src="./treeImage.mp4"
-          ></video>
+      {/* {!flag && (
+        <div className="mt-10 text-black m-auto p-10">
+          <h1 className="text-blue-800 text-6xl animate-bounce ">Welcome to DIZIMA!</h1>
         </div>
-      )}
+      )} */}
       <div className="relative md:min-h-screen ">
         <div className="relative">
-          {flag && (
+          {(
             <div class="overflow-hidden h-40 w-120">
               <div class="flex flex-col animate-vertical-scroll space-y-10 text-4xl md:text-6xl text-black leading-relaxed	">
                 <div>Web. Mobile. Software.</div>
@@ -34,18 +28,18 @@ function FunnelCard() {
         <div className="flex text-black flex-wrap lg:flex-nowrap w-[90%] m-auto border-black md:flex-row p-5 md:p-10 gap-5 bg-white overflow-hidden">
           <div className="w-full m-auto md:w-1/2">
             <p className=" text-2xl md:text-6xl  text-start  text-purple-900 rounded-xl ">
-              <span className="aqua">DIGITAL MARKETING </span>
+              <span className="aqua">DIGITAL MANAGEMENT </span>
               <span className="animate-text text-blue-700"> EXPERT</span>
             </p>
             <div>
               <p className="text-start text-base md:text-2xl mt-5 text-gray-800">
                 As a{" "}
                 <span className="text-indigo-600">
-                  Digital Marketing Expert
+                  Digital Management Expert
                 </span>
-                , I help businesses like yours thrive in the digital world. From
+                , We help businesses like yours thrive in the digital world. From
                 increasing your online visibility with tailored SEO strategies
-                to driving traffic through cutting-edge paid campaigns, I create
+                to driving traffic through cutting-edge paid campaigns, We create
                 solutions that{" "}
                 <span className="text-green-600">transform</span>{" "}
                 clicks into customers and grow your bottom line.

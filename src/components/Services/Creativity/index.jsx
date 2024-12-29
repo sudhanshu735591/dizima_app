@@ -31,7 +31,7 @@ function Creativity() {
 
       <div className="mt-5 sm:mt-8 lg:mt-10 text-lg sm:text-2xl lg:text-4xl text-start">
         We help businesses grow through the magic of creative and the science of
-        digital marketing. Here are some of the learnings and research we've
+        digital management. Here are some of the learnings and research we've
         developed over the years.
       </div>
 

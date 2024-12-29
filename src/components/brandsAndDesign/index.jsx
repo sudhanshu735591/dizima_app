@@ -31,12 +31,11 @@ function Brands() {
         </div>
         <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10">
           <ul className="space-y-4 md:space-y-6">
-            <li className="text-lg md:text-2xl">Branding</li>
-            <li className="text-lg md:text-2xl">Creative</li>
+            <li className="text-lg md:text-2xl">Business Development</li>
+            <li className="text-lg md:text-2xl">B2C Marketing</li>
             <li className="text-lg md:text-2xl">UI/UX Design</li>
-            <li className="text-lg md:text-2xl">Video</li>
+            <li className="text-lg md:text-2xl">Strategic Partnerships</li>
             <li className="text-lg md:text-2xl">Web Design</li>
-            <li className="text-lg md:text-2xl">Photography</li>
           </ul>
         </div>
       </div>
@@ -46,8 +45,8 @@ function Brands() {
         </div>
         <div className="flex flex-col text-start gap-5 md:gap-8 px-5 md:px-10">
           <ul className="space-y-4 md:space-y-6">
-            <li className="text-lg md:text-2xl">Strategy Development</li>
-            <li className="text-lg md:text-2xl">Strategy Implementation</li>
+            <li className="text-lg md:text-2xl">Customer Relation Management</li>
+            <li className="text-lg md:text-2xl">Strategy Management</li>
             <li className="text-lg md:text-2xl">Campaign Management</li>
             <li className="text-lg md:text-2xl">Account Based Marketing</li>
             <li className="text-lg md:text-2xl">Content Marketing</li>

@@ -4,7 +4,7 @@ export const data = [
         text:"Creative and passionate graphic designer specializing in licensed product design. Very fast worker and quick learner who thrives in a fast-paced environment."
     },
     {
-        designation:"Marketing Strategy",
+        designation:"Management Strategy",
         text:"Creative and passionate graphic designer specializing in licensed product design. Very fast worker and quick learner who thrives in a fast-paced environment."
     },
     {

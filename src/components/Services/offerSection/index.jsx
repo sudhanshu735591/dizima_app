@@ -24,40 +24,35 @@ function OfferSection() {
         </div>
         <div className="md:w-2/3 flex flex-col gap-10">
           <div className="flex flex-col gap-5 text-start">
-            <h2 className="text-4xl md:text-6xl font-playwright">
+            <h2 className="text-3xl md:text-5xl font-playwright">
               Marketing Strategy
             </h2>
             <p className="text-lg md:text-2xl">
-              Whether you're just building out your marketing or looking to
-              explore new strategies, we have the toolkits and experience to
-              help you grow your business.
+            Whether you're expanding your reach through ATL (Above The Line) strategies for broad audience engagement or leveraging BTL (Below The Line) tactics for more targeted, personalized interactions, we provide the tools, insights, and expertise to help your business grow across both channels.
             </p>
           </div>
           <div className="flex flex-col gap-5 text-start">
-            <h2 className="text-4xl md:text-6xl font-playwright">
-              Branding & Design
+            <h2 className="text-3xl md:text-5xl font-playwright">
+            Brand Management
             </h2>
             <p className="text-lg md:text-2xl">
-              A clear and engaging brand design can set you apart. We craft
-              brand identities that resonate with your audience.
+            From shaping your brand's identity and ensuring consistent messaging to managing public relations and building strong media relationships, we offer comprehensive strategies to elevate your brand, enhance its reputation, and drive long-term success.
             </p>
           </div>
           <div className="flex flex-col gap-5 text-start">
-            <h2 className="text-4xl md:text-6xl font-playwright">
-              Digital Marketing
+            <h2 className="text-3xl md:text-5xl font-playwright">
+            Design and Production 
             </h2>
             <p className="text-lg md:text-2xl">
-              Reach your audience effectively with our tailored digital
-              marketing strategies that deliver measurable results.
+            From creating visually stunning UI/UX designs to producing high-impact TV and commercial ads, we offer end-to-end design and production services. Our team crafts compelling digital experiences and impactful multimedia campaigns that resonate with your audience, driving engagement and brand recognition.
             </p>
           </div>
           <div className="flex flex-col gap-5 text-start">
-            <h2 className="text-4xl md:text-6xl font-playwright">
-              Content Creation
+            <h2 className="text-3xl md:text-5xl font-playwright">
+              Digital Management
             </h2>
             <p className="text-lg md:text-2xl">
-              High-quality content is key. Let us help you tell your story in a
-              way that connects with your audience.
+            With expert Digital Management services, we help elevate your online presence through effective SEO strategies that boost search engine rankings and SMO tactics that enhance social media visibility. Our tailored approach ensures your brand connects with the right audience, drives traffic, and fosters engagement across all digital platforms.
             </p>
           </div>
         </div>
