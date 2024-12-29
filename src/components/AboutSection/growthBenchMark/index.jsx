@@ -16,7 +16,7 @@ function GrowthBenchMarks() {
           />
 
           <p className="mt-8  text-base sm:text-lg md:text-4xl  leading-relaxed text-start">
-            We are a passionate team of innovators and strategists committed to empowering businesses to achieve remarkable growth. Our philosophy is straightforward: gain an in-depth understanding of your business, uncover what makes you unique, and craft a targeted marketing strategy that differentiates you in today’s competitive landscape.
+          We are a dedicated group of creative thinkers and planners focused on helping businesses drive exceptional growth. Our approach is simple: deeply understand your business, identify your unique strengths, and develop a tailored marketing strategy that sets you apart in a competitive market.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center  md:mt-20 gap-8">

@@ -1,31 +1,58 @@
+import { useState } from "react";
 import "./index.css";
 function FunnelCard() {
+  const [flag, setFlag] = useState(false);
+  setTimeout(() => {
+    setFlag(true);
+  }, 6000);
   return (
     <>
+      {!flag && (
+        <div className="mt-10 h-[400px] m-auto w-1/2 ">
+          <video
+            className="w-full h-full object-cover rounded-2xl"
+            autoPlay
+            loop
+            playsInline
+            src="./treeImage.mp4"
+          ></video>
+        </div>
+      )}
       <div className="relative md:min-h-screen ">
         <div className="relative">
-          <div class="overflow-hidden h-40 w-120">
-            <div class="flex flex-col animate-vertical-scroll space-y-10 text-4xl md:text-6xl text-black leading-relaxed	">
-              <div>Web. Mobile. Software.</div>
-              <div className="">Technology Made Simple.</div>
-              <div>Fast And Reliable.</div>
+          {flag && (
+            <div class="overflow-hidden h-40 w-120">
+              <div class="flex flex-col animate-vertical-scroll space-y-10 text-4xl md:text-6xl text-black leading-relaxed	">
+                <div>Web. Mobile. Software.</div>
+                <div className="">Technology Made Simple.</div>
+                <div>Fast And Reliable.</div>
+              </div>
             </div>
-          </div>
-        
+          )}
         </div>
+
         <div className="flex text-black flex-wrap lg:flex-nowrap w-[90%] m-auto border-black md:flex-row p-5 md:p-10 gap-5 bg-white overflow-hidden">
           <div className="w-full m-auto md:w-1/2">
             <p className=" text-2xl md:text-6xl  text-start  text-purple-900 rounded-xl ">
-              <span className="aqua">DIGITAL MARKETING{" "}</span>
+              <span className="aqua">DIGITAL MARKETING </span>
               <span className="animate-text text-blue-700"> EXPERT</span>
             </p>
             <div>
-              <p className="text-start text-base md:text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Tempora, tenetur molestiae mollitia. Tempora, tenetur molestiae
-                mollitia Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Tempora, tenetur molestiae mollitia Tempora, tenetur
-                molestiae mollitia
+              <p className="text-start text-base md:text-2xl mt-5 text-gray-800">
+                As a{" "}
+                <span className="text-indigo-600">
+                  Digital Marketing Expert
+                </span>
+                , I help businesses like yours thrive in the digital world. From
+                increasing your online visibility with tailored SEO strategies
+                to driving traffic through cutting-edge paid campaigns, I create
+                solutions that{" "}
+                <span className="text-green-600">transform</span>{" "}
+                clicks into customers and grow your bottom line.
+                <span className="text-red-500">
+                  Ready to scale your business?
+                </span>{" "}
+                Let's work together to make it happen!
               </p>
             </div>
           </div>

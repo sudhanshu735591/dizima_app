@@ -1,5 +1,4 @@
 import Carousel from "../Caraousel";
-
 function BTL() {
   const slides = [
     { image: "./Event Marketing.gif", alt: "Slide 1" },
@@ -30,4 +29,3 @@ function BTL() {
   );
 }
 export default BTL;
-

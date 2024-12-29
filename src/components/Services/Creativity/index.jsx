@@ -1,6 +1,20 @@
 import "./index.css";
 function Creativity() {
   const text = "Why we are ? 💫";
+  const data = [
+    {
+      heading:"Emerging channel report",
+      img:"https://i.gifer.com/origin/71/711557abfeed55bc0ebc5185168147c6.gif",
+    },
+    {
+      heading:"Tactic playbook",
+      img:"https://digitalscholar.in/wp-content/uploads/2022/06/Inbound-Marketing-Manager.gif",
+    },
+    {
+      heading:"Ultimate guide",
+      img:"https://cdn.dribbble.com/users/1519660/screenshots/9809330/media/6cac76b4cb5fdd9085989daecdfa1318.gif",
+    },
+  ]
   return (
     <div className="m-auto text-black p-10 sm:p-16 lg:p-20">
       <h1 className="overflow-hidden text-4xl sm:text-5xl lg:text-6xl font-bold text-start font-montserrat text-violet-900">
@@ -22,21 +36,19 @@ function Creativity() {
       </div>
 
       <div className="flex gap-6 sm:gap-8 lg:gap-10 justify-between flex-wrap">
-        {["Emerging channel report", "Tactic playbook", "Ultimate guide"].map(
-          (title, index) => (
-            <div
-              key={index}
-              className="w-full sm:w-[300px] lg:w-[400px] text-center p-5 gap-5 mt-10 flex flex-col"
-            >
-              <h1 className="text-xl sm:text-2xl font-bold">{title}</h1>
-              <img
-                src={`https://cdn.prod.website-files.com/607d49b61828080acc1b8fe0/60940a0f8fa3de10051b17dc_cover_test_calc.svg`}
-                alt={`${title} image`}
-                className="w-full"
+        {
+          data.map((val)=>{
+            return(
+              <div className="w-full sm:w-[300px] lg:w-[400px] text-start p-5 gap-5 mt-10 flex flex-col">
+                <h1 className="text-xl sm:text-2xl font-bold">{val.heading}</h1>
+                <img
+                src={val.img}
+                className="w-full rounded-2xl"
               />
-            </div>
-          )
-        )}
+              </div>
+            )
+          })
+        }
       </div>
     </div>
   );

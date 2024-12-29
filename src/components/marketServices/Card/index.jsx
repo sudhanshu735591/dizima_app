@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./index.css"
+import "./index.css";
 import {
   motion,
   useMotionTemplate,
@@ -7,17 +7,18 @@ import {
   useSpring,
 } from "framer-motion";
 
-const Example = () => {
+const Example = (props) => {
+  const {heading , img , text} = props;
   return (
     <div className="grid w-full place-content-center  text-slate-900">
-      <TiltCard />
+      <TiltCard heading={heading} img= {img} text={text}/>
     </div>
   );
 };
-
 const ROTATION_RANGE = 32.5;
 const HALF_ROTATION_RANGE = 32.5 / 2;
-const TiltCard = () => {
+const TiltCard = (props) => {
+  const {heading, img, text} = props;
   const ref = useRef(null);
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -36,12 +37,10 @@ const TiltCard = () => {
     x.set(rX);
     y.set(rY);
   };
-
   const handleMouseLeave = () => {
     x.set(0);
     y.set(0);
   };
-
   return (
     <motion.div
       ref={ref}
@@ -51,17 +50,19 @@ const TiltCard = () => {
         transformStyle: "preserve-3d",
         transform,
       }}
-      className="h-96 rounded-xl bg-gradient-to-br from-yellow-300 to-violet-900 flex items-center justify-center">
+      className="h-96 rounded-xl bg-gradient-to-br from-yellow-300 to-violet-900 flex items-center justify-center"
+    >
       <div
         style={{
           transform: "translateZ(200px)",
           transformStyle: "preserve-3d",
           padding: "20px", // Add padding around the content
         }}
-        className="bg-white rounded-xl p-5 shadow-lg max-w-md">
+        className="bg-white rounded-xl p-5 shadow-lg max-w-md"
+      >
         <img
           className="bg-blue-700 m-auto rounded-full"
-          src="https://www.theaquarious.com/assets/icons/why-chosse-ico1.svg"
+          src={img}
           alt=""
         />
         <p
@@ -70,7 +71,7 @@ const TiltCard = () => {
           }}
           className="text-center lg:text-2xl font-bold mt-5 m-auto"
         >
-          12+ Years of experience
+          {heading}
         </p>
         <p
           style={{
@@ -78,11 +79,10 @@ const TiltCard = () => {
           }}
           className="lg:text-2xl mt-5 text-center"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a veritatis doloremque qui perferendis! Nam ducim
+          {text}
         </p>
       </div>
     </motion.div>
   );
 };
-
 export default Example;
